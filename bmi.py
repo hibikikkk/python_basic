@@ -1,6 +1,11 @@
 def bmi(height, weight):
+<<<<<<< HEAD
     m_from_cm = height / 100
     return weight / (m_from_cm * m_from_cm)
+=======
+    from_m = height / 100
+    return weight / (from_m * from_m)
+>>>>>>> origin/master
 
 
 if __name__ == "__main__":
